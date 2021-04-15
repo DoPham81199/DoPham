@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    top: 0;
+}
+  
+body {
+    font-family: "Open Sans", sans-serif;
+}
+  
+.reloadButton {
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: 0.5s;
+    position: fixed;
+    margin-top: 180px;
+    margin-left: 100px;
+}
+  
+.attribute {
+    position: absolute;
+    color: rgb(200, 200, 200);
+    margin: auto;
+    top: 90%;
+}
+  
+.reloadButton:hover {
+    color:white;
+    background-color: rgb(70, 47, 47);
+}
+  
+.quote {
+    position: absolute;
+    width: 95%;
+    height: 100px;
+    margin-top: 260px;
+    margin-left: 20px;
+    color: #121212;
+    text-align: center;
+    align-items: center;
+    justify-self: center;
+}
+  
+.quote .main {
+    font-size: 36px;
+}
